@@ -1,0 +1,24 @@
+{
+    "name": "patternseek/recycle",
+    "description": "A utility library implementing a recycle/trash bin for scripts to more safely recursively delete directories.",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tolan Blundell",
+            "email": "tolan@patternseek.net"
+        }
+    ],
+    "require": {
+        "webmozart/path-util": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PatternSeek\\Recycle\\": "lib",
+            "PatternSeek\\Recycle\\Test\\": "tests"
+        }
+    }
+}
