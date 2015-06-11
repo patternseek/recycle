@@ -1,7 +1,8 @@
 {
     "name": "patternseek/recycle",
+    "type": "library",
     "description": "A utility library implementing a recycle/trash bin for scripts to more safely recursively delete directories.",
-    "type": "lib",
+    "keywords": ["library"],
     "license": "MIT",
     "authors": [
         {
