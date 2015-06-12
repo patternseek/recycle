@@ -1,6 +1,6 @@
 # Recycle
 
-A utility library implementing a recycle/trash bin for scripts to more recursively 'delete' directories more safely.
+A utility library implementing a recycle/trash bin for scripts to recursively 'delete' directories more safely.
 
 ## Usage example
 
