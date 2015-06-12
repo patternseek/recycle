@@ -62,7 +62,9 @@ class Recycle
         $this->ensureDirUsable( $todayDir );
         $this->ensureDirUsable( $finalRestingPlaceDir );
         
-        rename( $path, $finalRestingPlace );
+        // Would use PHP's rename but... it doesn't always work
+        // when moving a directory to another device.
+        exec( "mv {$path} {$finalRestingPlace}" );
         return $finalRestingPlace;
     }
 
