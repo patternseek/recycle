@@ -1,5 +1,7 @@
 # Recycle
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/patternseek/recycle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/patternseek/recycle/?branch=master) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/e125c475-0221-419d-90a7-7f6e6db2ed48/mini.png)](https://insight.sensiolabs.com/projects/e125c475-0221-419d-90a7-7f6e6db2ed48)
+
 A utility library implementing a recycle/trash bin for scripts to recursively 'delete' directories more safely.
 
 ## Usage example
