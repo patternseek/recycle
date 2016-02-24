@@ -11,7 +11,6 @@
 
 namespace PatternSeek\Recycle;
 
-use Symfony\Component\Validator\Constraints\All;
 use Webmozart\PathUtil\Path;
 
 /**
