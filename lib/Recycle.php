@@ -29,7 +29,7 @@ class Recycle
      * @param $storageDirectory
      */
     public function __construct( $storageDirectory ){
-        if( $storageDirectory{-1} !== '/' ){
+        if( $storageDirectory[-1] !== '/' ){
             $storageDirectory .= '/';
         }
         $this->storageDirectory = $storageDirectory;
